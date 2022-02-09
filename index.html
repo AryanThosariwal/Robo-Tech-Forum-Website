@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="RTF_logo.jpeg">
+    <title>The Robo-Tech Forum</title>
+    <style>
+      @media only screen and (min-width: 992px){
+      .pad{
+        padding-bottom: 0px !important;
+        padding-top: 6rem !important;
+      }
+      nav a{
+        transition: all ease-in-out 250ms !important;
+      }
+      nav a::after{
+        content: ""!important;
+        position: absolute !important;
+        display: block !important;
+        height: 0.1rem !important;
+        width: 0% !important;
+        background-color: rgb(99, 102, 241) !important;
+        /* bottom: -1em !important; */
+        transition: all ease-in-out 250ms !important;
+      }
+      #home:hover::after{
+        width: 3% !important;
+      }
+      #project:hover::after{
+        width: 3.75% !important;
+      }
+      #contact:hover::after{
+        width: 5% !important;
+      }
+      #about:hover::after{
+        width: 4.25% !important;
+      }
+      nav a:hover{
+        color:  rgb(99, 102, 241)!important;
+      }
+      .mr3{
+        margin-right: 3rem !important;
+      }
+    }
+    @media only screen and (max-width: 992px){
+      nav a{
+        transition: all ease-in-out 250ms !important;
+      }
+      nav a:hover{
+        color:  rgb(99, 102, 241)!important;
+      }
+    }
+
+    </style>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="RTF_logo.jpeg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12 text-white rounded-none" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">The Robo-Tech Forum</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr3 mr-5 hover:text-gray-900 cursor-pointer" id="home" href="index.html">Home</a>
+            <a class="mr3 mr-5 hover:text-gray-900 cursor-pointer" id="project" href="PROJECTS.html">Projects</a>
+            <a class="mr3 mr-5 hover:text-gray-900 cursor-pointer" id="contact" href="CONTACTUS.html">Contact us</a>
+            <a class="mr3 mr-5 hover:text-gray-900 cursor-pointer" id="about" href="ABOUTUS.html">About us</a>
+          </nav>
+        </div>
+      </header>
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-5xl text-3xl mb-4 font-medium px-8 text-gray-900">The Robo-Tech Forum
+              <br class="hidden lg:inline-block">
+            </h1>
+            <h2 class="title-font sm:text-xl text-3xl mb-4 font-medium px-8 text-gray-900">A place where you can Exchange and Discuss your Views or Ideas..</h2>
+            <p class="mb-9 px-8 text-xl leading-relaxed">Government College of Engineering, Amravati.</p>
+            <div class="flex justify-center px-20">
+              <a href="APPLICATIONFORM.html"><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Apply Now</button></a>
+              <a href="MOREINFO.html"><button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">More Info</button></a>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded-2xl" alt="robot" src="robotic_hand.jpg">
+          </div>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="lg:w-2/3 mx-auto">
+            <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
+              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src="Robocon_2019_Quarter_Finals.jpg">
+              <div class="text-center relative z-10 w-full">
+                <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">Robocon</h2>
+                <p class="leading-relaxed">The Robot competition, which is organised by Asia-Pacific Broadcasting Union</p>
+                <a class="mt-3 text-indigo-500 inline-flex items-center" href="GALLERY.html">View More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-wrap -mx-2">
+              <div class="px-2 w-1/2">
+                <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                  <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src="Hexapod.jpg">
+                  <div class="text-center relative z-10 w-full">
+                    <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Cozmoclench</h2>
+                    <p class="leading-relaxed">Building manually controlled gripper bot (wired or wireless) that can pick up objects from a specific location</p>
+                    <a class="mt-3 text-indigo-500 inline-flex items-center" href="GALLERY.html">View More
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="px-2 w-1/2">
+                <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                  <img alt="gallery" class="w-full object-cover h-full object-center block opacity-50 absolute inset-0" src="Robocon.jpg">
+                  <div class="text-center relative z-10 w-full">
+                    <h2 class="text-xl text-gray-900 font-medium title-font mb-2">Meshmerize</h2>
+                    <p class="leading-relaxed">Building a line follower bot that can keep track of directions while going through a maze</p>
+                    <a class="mt-3 text-indigo-500 inline-flex items-center" href="GALLERY.html">View More
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="text-center mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Why one should join RTF?</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis et, ipsam nobis rerum laborum. Voluptates architecto provident molestias impedit?</p>
+          </div>
+          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Want to build Robots??</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Want to program them??</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Compete against teams from over the World!!</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Participate in Robocon and other events!!</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Do something innovative in the drill of partial lockdown!!</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Don't Wait Apply Now!!</span>
+              </div>
+            </div>
+          </div>
+          <a href="APPLICATIONFORM.html"><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Apply Now</button></a>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 pad mx-auto">
+          <div class="flex flex-col text-center items-center w-full mb-20">
+            <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">Have a look at our Stats!!</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, cupiditate voluptas tenetur at impedit eveniet! Ipsam commodi optio quis alias?</p>
+            <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-center sm:pr-10">
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">20+</h2>
+              <p class="leading-relaxed">Projects</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">20+</h2>
+              <p class="leading-relaxed">Competions</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">5+</h2>
+              <p class="leading-relaxed">Competions per year</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">50+</h2>
+              <p class="leading-relaxed">Students</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="text-gray-600 body-font">
+        <div class="container px-10 py-24 mx-auto">
+          <div class="flex flex-wrap md:text-center text-center order-first">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">MENU</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer" href="PROJECTS.html">Projects</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer" href="CONTACTUS.html">Contact us</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer" href="ABOUTUS.html">About us</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer" href="GALLERY.html">Gallery</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Contact Us</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer" href="0721">0721xxxxxx</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer">1st Floor Admin Building, Government College of Engineering, Amravati (444604), Maharashtra.</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PROJECTS</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer">Meshmerize</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer">Cozmoclench</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer">ALVTOLA</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800 cursor-pointer">Micromouse</a>
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100">
+          <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <img src="RTF_logo.jpeg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12 text-white rounded-none" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span class="ml-3 text-xl">The Robo-Tech Forum</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2022 The Robo-Tech Forum —
+              <a href="https://www.instagram.com/the_robo_tech_forum_gcoea/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@rtf</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a class="text-gray-500" href="https://www.facebook.com/robotechforum/" target="_blank">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500" href="" target="-blank">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500" href="https://www.instagram.com/the_robo_tech_forum_gcoea/" target="_blank">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500" href="https://www.linkedin.com/company/the-robo-tech-forum/" target="_blank">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
